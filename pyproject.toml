@@ -9,6 +9,8 @@ dependencies = [
     "django>=5.2",
     "black>=25.1.0",
     "djangorestframework>=3.16.0",
+    "pytest>=8.3.5",
+    "pytest-django>=4.11.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
@@ -22,6 +24,7 @@ managed = true
 dev-dependencies = [
     "ruff>=0.11.8",
     "mypy>=1.15.0",
+    "factory-boy>=3.3.3",
 ]
 
 [tool.hatch.metadata]

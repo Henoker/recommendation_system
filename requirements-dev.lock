@@ -18,21 +18,35 @@ click==8.1.8
     # via black
 colorama==0.4.6
     # via click
+    # via pytest
 django==5.2
     # via djangorestframework
     # via recommendation-system
 djangorestframework==3.16.0
     # via recommendation-system
+factory-boy==3.3.3
+faker==37.1.0
+    # via factory-boy
+iniconfig==2.1.0
+    # via pytest
 mypy==1.15.0
 mypy-extensions==1.1.0
     # via black
     # via mypy
 packaging==25.0
     # via black
+    # via pytest
 pathspec==0.12.1
     # via black
 platformdirs==4.3.7
     # via black
+pluggy==1.5.0
+    # via pytest
+pytest==8.3.5
+    # via pytest-django
+    # via recommendation-system
+pytest-django==4.11.1
+    # via recommendation-system
 ruff==0.11.8
 sqlparse==0.5.3
     # via django
@@ -40,3 +54,4 @@ typing-extensions==4.13.2
     # via mypy
 tzdata==2025.2
     # via django
+    # via faker
